@@ -19,7 +19,6 @@ export class WaveGroup {
       );
       this.waves[i] = wave;
     }
-    console.log(1);
     
   }
 

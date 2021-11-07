@@ -11,7 +11,7 @@ class App{
 
     this.point = new Point(this.ctx);
 
-    // window.addEventListener('resize', this.resize.bind(this), false);  //현재 의미없음.
+    window.addEventListener('resize', this.resize.bind(this), false);  //현재 의미없음.
     this.resize();
     window.requestAnimationFrame(this.animation.bind(this));
 
