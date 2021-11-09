@@ -61,6 +61,8 @@ export class Point{
     // console.log(this.theta/Math.PI*180,  -this.radius/Math.PI*180)
     console.log(Math.sqrt((righttop[0]-rightbtm[0])**2 + (righttop[1]-rightbtm[1])**2 ));
     console.log(Math.sqrt((lefttop[0]-leftbtm[0])**2 + (lefttop[1]-leftbtm[1])**2 ))
+
+    
     //Draw sets
     for (let i = 0; i < this.totalcups; i++ ) {
       const water = this.watergroup[i];
